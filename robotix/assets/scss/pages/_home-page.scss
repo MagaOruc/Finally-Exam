@@ -1,0 +1,128 @@
+.first {
+  height: 100%;
+
+  .container {
+    .row {
+      .col-8 {
+        margin-top: 40px;
+        text-align: center;
+      }
+       .col-6{
+
+        .sort-btn{
+          height: 40px;
+          width: 150px;
+          background-color: black;
+          color: #9cdb95;
+        }
+
+       }
+
+
+      .col-3 {
+        .content {
+          text-align: center;
+          .buttons {
+            display: flex;
+            flex-direction: column;
+
+            button {
+              margin: 5px;
+            }
+            a{
+              margin: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.second {
+  height: 100%;
+  background-image: url(../../../assets/image/feature-bg.jpg);
+
+  .container {
+    .row {
+      .col-8 {
+        margin-top: 50px;
+        text-align: center;
+        h1 {
+          font-size: 36px;
+          color: white;
+          font-weight: 400;
+        }
+        p {
+          color: whitesmoke;
+        }
+      }
+
+      .robot-card {
+        border-radius: 10px;
+
+        &:hover {
+          i,
+          h3 {
+            color: blue;
+          }
+        }
+
+        .content {
+          background-color: white !important;
+          border-radius: 10px;
+
+          padding: 20px;
+
+          .headers {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            h3 {
+              font-size: 20px;
+            }
+
+            i {
+              font-size: 24px;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.third {
+  .container {
+    .row {
+      .content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h4 {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          color: black;
+        }
+
+        .buttons {
+          button {
+            height: 30px;
+            width: 100px;
+            border: 1px solid black;
+            color: white;
+            background-image: linear-gradient(to right, blue, violet);
+            margin-top: 10px;
+            &:hover {
+              color: black;
+              background-image: linear-gradient(white, white);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+header {
+  height: 100vh;
+  background-image: url(../../assets/image/section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header {
+    position: relative;
+
+    .top-bar {
+      width: 100%;
+      background-color: rgba($color: #3d90d4, $alpha: 0.5);
+      position: fixed;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .container {
+        display: flex;
+        justify-content: space-around;
+        .pages {
+          nav {
+            ul {
+              display: flex;
+              column-gap: 40px;
+
+              li {
+                list-style: none;
+
+                a {
+                  text-decoration: none;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .row {
+      .col-6 {
+        margin-top: 10%;
+
+        h1 {
+          color: white;
+          font-size: 48px;
+          font-weight: 400;
+        }
+        p {
+          color: white;
+          font-size: 20px;
+          font-weight: 400;
+        }
+        .view-btn {
+          background-color: white;
+          color: black;
+          height: 50px;
+          width: 200px;
+          border: 1px solid white;
+          transition: all 0.5s;
+
+          &:hover {
+            background-color: transparent;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

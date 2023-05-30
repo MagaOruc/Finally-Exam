@@ -1,0 +1,26 @@
+.footer {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(32, 30, 30);
+
+  .container {
+    .text {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+
+      .icons {
+        i {
+          padding-top: 20px;
+          text-align: center;
+          height: 100%;
+          width: 50px;
+          background-color: black;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

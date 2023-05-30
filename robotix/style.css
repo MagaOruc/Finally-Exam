@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../../assets/image/section.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .header {
+  position: relative;
+}
+header .header .top-bar {
+  width: 100%;
+  background-color: rgba(61, 144, 212, 0.5);
+  position: fixed;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header .top-bar .container {
+  display: flex;
+  justify-content: space-around;
+}
+header .header .top-bar .container .pages nav ul {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+header .header .top-bar .container .pages nav ul li {
+  list-style: none;
+}
+header .header .top-bar .container .pages nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .header .row .col-6 {
+  margin-top: 10%;
+}
+header .header .row .col-6 h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+}
+header .header .row .col-6 p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+header .header .row .col-6 .view-btn {
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 200px;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+header .header .row .col-6 .view-btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.first {
+  height: 100%;
+}
+.first .container .row .col-8 {
+  margin-top: 40px;
+  text-align: center;
+}
+.first .container .row .col-6 .sort-btn {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: #9cdb95;
+}
+.first .container .row .col-3 .content {
+  text-align: center;
+}
+.first .container .row .col-3 .content .buttons {
+  display: flex;
+  flex-direction: column;
+}
+.first .container .row .col-3 .content .buttons button {
+  margin: 5px;
+}
+.first .container .row .col-3 .content .buttons a {
+  margin: 5px;
+}
+
+.second {
+  height: 100%;
+  background-image: url(../../../assets/image/feature-bg.jpg);
+}
+.second .container .row .col-8 {
+  margin-top: 50px;
+  text-align: center;
+}
+.second .container .row .col-8 h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: 400;
+}
+.second .container .row .col-8 p {
+  color: whitesmoke;
+}
+.second .container .row .robot-card {
+  border-radius: 10px;
+}
+.second .container .row .robot-card:hover i,
+.second .container .row .robot-card:hover h3 {
+  color: blue;
+}
+.second .container .row .robot-card .content {
+  background-color: white !important;
+  border-radius: 10px;
+  padding: 20px;
+}
+.second .container .row .robot-card .content .headers {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.second .container .row .robot-card .content .headers h3 {
+  font-size: 20px;
+}
+.second .container .row .robot-card .content .headers i {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.third .container .row .content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.third .container .row .content2 h4 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+}
+.third .container .row .content2 .buttons button {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  color: white;
+  background-image: linear-gradient(to right, blue, violet);
+  margin-top: 10px;
+}
+.third .container .row .content2 .buttons button:hover {
+  color: black;
+  background-image: linear-gradient(white, white);
+}
+
+.footer {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(32, 30, 30);
+}
+.footer .container .text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.footer .container .text .icons i {
+  padding-top: 20px;
+  text-align: center;
+  height: 100%;
+  width: 50px;
+  background-color: black;
+  margin: 10px;
+}
+
+.favorite {
+  height: 100vh;
+  background-color: rgb(42, 68, 68);
+}
+.favorite .container .row .col-4 {
+  margin-top: 20px;
+  background-color: rgb(116, 152, 167);
+}/*# sourceMappingURL=style.css.map */
